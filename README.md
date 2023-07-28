@@ -21,6 +21,13 @@
 
    Use database.txt and run the query
 
+* Folder path
+
+NodemysqlAPP
+  config  ->db. config.js
+  src 
+  
+
 * In postman
 
   POST-http://localhost:5000/auth/register for registering new user (In body type username and password)

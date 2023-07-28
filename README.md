@@ -7,7 +7,7 @@
 
 * MySQL configuration
 
-   Please create a database and make the changes in the config/db.config.js file.
+   Make the changes in the config/db.config.js file.
 
 * In the project directory, you can run:
 
@@ -17,7 +17,9 @@
 
    node server.js OR nodemon start OR npm start
 
-Runs the app in the development mode. Open http://localhost:5000 to view it in the browser.
+* In the Mysql workbench
+
+   Use database.txt and run the query
 
 * In postman
 

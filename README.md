@@ -21,12 +21,6 @@
 
    Use database.txt and run the query
 
-* Folder path
-
-NodemysqlAPP
-  config  ->db. config.js
-  src 
-  
 
 * In postman
 

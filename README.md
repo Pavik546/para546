@@ -28,15 +28,15 @@
   
   POST-http://localhost:5000/auth/login for login user (In body type registered username and password) it will generate a token
   
-  GET-http://localhost:5000/api/v1/todo (In authorization paste a token) to Retrieve a todo list of items
+  GET-http://localhost:5000/api/v1/todo - to Retrieve a todo list of items
   
-  GET-http://localhost:5000/api/v1/todo/1 (In authorization paste a token) to Retrieve a todo list of items by id
+  GET-http://localhost:5000/api/v1/todo/1 -to Retrieve a todo list of items by id
   
-  POST-http://localhost:5000/api/v1/employees (In authorization paste a token) to create a new todo item
+  POST-http://localhost:5000/api/v1/todo-to create a new todo item
   
-  PUT-http://localhost:5000/api/v1/employees/1 (In authorization paste a token) to update the todo item
+  PUT-http://localhost:5000/api/v1/todo/1 -to update the todo item
   
-  DELETE-http://localhost:5000/api/v1/employees/1 (In authorization paste a token) to delete the todo item by id
+  DELETE-http://localhost:5000/api/v1/todo/1 -to delete the todo item by id
   
   
   

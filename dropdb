@@ -1,0 +1,12 @@
+SELECT 
+    FK.name AS ForeignKeyName,
+    TP.name AS TableName
+FROM sys.foreign_keys AS FK
+INNER JOIN sys.tables AS TP ON FK.parent_object_id = TP.object_id
+INNER JOIN sys.tables AS RF ON FK.referenced_object_id = RF.object_id
+WHERE RF.name = 'role1';
+
+ALTER TABLE users
+DROP CONSTRAINT FK__users__roleid__30C33EC3
+
+drop table Role1
